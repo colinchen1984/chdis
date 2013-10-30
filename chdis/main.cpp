@@ -13,9 +13,9 @@ int main(int argc, const char * argv[])
 
 	// insert code here...
 	auto l = createlist();
-	rpushdystring(l, (void *) 1321);
-	rpushdystring(l, (void *) 344);
-	lpushdystring(l, (void *) 34);
+	rlistpush(l, (void *) 1321);
+	rlistpush(l, (void *) 344);
+	llistpush(l, (void *) 34);
 	auto i = createliterator(l);
 	while(auto d = getlistdata(&i))
 	{

@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5bb98f2-3e52-489c-b135-f83795eaef02" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chdis/define.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chdis/dystring.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chdis/dystring.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chdis/list.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chdis/list.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chdis/skiplist.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chdis/skiplist.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chdis/main.cpp" afterPath="$PROJECT_DIR$/chdis/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chdis.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/chdis.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="chdis.iws" />
@@ -35,59 +26,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.cpp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chdis/main.cpp">
+      <file leaf-file-name="list.h" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chdis/list.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="10" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0" vertical-offset="235" max-vertical-offset="748">
-              <folding>
-                <element signature="e#121#140#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stdint.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/stdint.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="255" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="4774">
+            <state line="12" column="6" selection-start="159" selection-end="159" vertical-scroll-proportion="0.18055555" vertical-offset="160" max-vertical-offset="1628">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="skiplist.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chdis/skiplist.h">
+      <file leaf-file-name="dystring.cpp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chdis/dystring.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="22" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="506">
+            <state line="10" column="0" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="807" max-vertical-offset="1320">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="skiplist.cpp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chdis/skiplist.cpp">
+      <file leaf-file-name="stdlib.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/stdlib.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="286">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.cpp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chdis/list.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="9" selection-start="513" selection-end="513" vertical-scroll-proportion="0.24756335" vertical-offset="665" max-vertical-offset="3916">
-              <folding>
-                <element signature="e#94#113#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_int32_t.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/sys/_types/_int32_t.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="20" selection-start="1372" selection-end="1372" vertical-scroll-proportion="0.0" vertical-offset="301" max-vertical-offset="814">
+            <state line="159" column="13" selection-start="5640" selection-end="5640" vertical-scroll-proportion="0.0" vertical-offset="3498" max-vertical-offset="7370">
               <folding />
             </state>
           </provider>
@@ -102,31 +62,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stdlib.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/stdlib.h">
+      <file leaf-file-name="_int32_t.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/sys/_types/_int32_t.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="159" column="13" selection-start="5640" selection-end="5640" vertical-scroll-proportion="0.0" vertical-offset="3266" max-vertical-offset="7304">
+            <state line="29" column="20" selection-start="1372" selection-end="1372" vertical-scroll-proportion="0.0" vertical-offset="301" max-vertical-offset="814">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dystring.cpp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chdis/dystring.cpp">
+      <file leaf-file-name="list.cpp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chdis/list.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="807" max-vertical-offset="1320">
+            <state line="160" column="19" selection-start="2060" selection-end="2060" vertical-scroll-proportion="0.0" vertical-offset="3283" max-vertical-offset="3916">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="skiplist.cpp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chdis/skiplist.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="286">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="skiplist.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chdis/skiplist.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="22" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="352" max-vertical-offset="506">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stdint.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/stdint.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="255" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="4774">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.cpp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chdis/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="13" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
               <folding>
-                <element signature="e#94#113#0" expanded="true" />
+                <element signature="e#121#140#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chdis/list.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="18" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="841" max-vertical-offset="1606">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -150,6 +137,12 @@
       <command text="git status" />
       <command text="git commit -m &quot;init project&quot;" />
       <command text="git status" />
+      <command text="git commit -am &quot;add basic data struct&quot;" />
+      <command text="git status" />
+      <command text="git add chdis.xcodeproj/" />
+      <command text="git status" />
+      <command text="git commit -m &quot;modify list interface name&quot;" />
+      <command text="git log" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
@@ -160,6 +153,9 @@
       <MyDateState />
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///dummy.txt" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -167,9 +163,10 @@
         <option value="$PROJECT_DIR$/chdis/dystring.cpp" />
         <option value="$PROJECT_DIR$/chdis/dystring.h" />
         <option value="$PROJECT_DIR$/chdis/skiplist.h" />
-        <option value="$PROJECT_DIR$/chdis/list.h" />
         <option value="$PROJECT_DIR$/chdis/list.cpp" />
         <option value="$PROJECT_DIR$/chdis/main.cpp" />
+        <option value="$PROJECT_DIR$/chdis/chlist.h" />
+        <option value="$PROJECT_DIR$/chdis/list.h" />
       </list>
     </option>
   </component>
@@ -242,12 +239,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.sourceCode.C/C++/Objective-C" />
+    <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="chdis" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Application.chdis">
     <configuration default="false" name="chdis" type="AppleRunConfiguration" factoryName="Application" temporary="true" SCHEME_NAME="chdis" PROJECT_NAME="chdis" TARGET_NAME="chdis" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="chdis" RUN_TARGET_NAME="chdis" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
@@ -305,26 +302,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="22" width="1400" height="970" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.60044396" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39955604" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6703663" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39955604" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -359,9 +356,7 @@
     <entry file="file://$PROJECT_DIR$/chdis/list.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="286">
-          <folding>
-            <element signature="e#94#113#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -379,16 +374,12 @@
     </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/sys/_types/_int16_t.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="24" selection-start="1374" selection-end="1374" vertical-scroll-proportion="1.2436647" vertical-offset="0" max-vertical-offset="814">
-          <folding />
-        </state>
+        <state line="29" column="24" selection-start="1374" selection-end="1374" vertical-scroll-proportion="1.2436647" vertical-offset="0" max-vertical-offset="814" />
       </provider>
     </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/sys/_types/_int64_t.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1341" selection-end="1341" vertical-scroll-proportion="0.0" vertical-offset="301" max-vertical-offset="814">
-          <folding />
-        </state>
+        <state line="28" column="0" selection-start="1341" selection-end="1341" vertical-scroll-proportion="0.0" vertical-offset="301" max-vertical-offset="814" />
       </provider>
     </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/stdint.h">
@@ -407,11 +398,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chdis/define.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="638">
-          <folding>
-            <element signature="e#147#178#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="4" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="638" />
       </provider>
     </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/stdlib.h">
@@ -424,9 +411,7 @@
     <entry file="file://$PROJECT_DIR$/chdis/dystring.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1320">
-          <folding>
-            <element signature="e#94#113#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -451,28 +436,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chdis/list.h">
+    <entry file="file://$PROJECT_DIR$/chdis/list.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="18" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="841" max-vertical-offset="1606">
+        <state line="160" column="19" selection-start="2060" selection-end="2060" vertical-scroll-proportion="0.0" vertical-offset="3283" max-vertical-offset="3916">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chdis/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="10" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0" vertical-offset="235" max-vertical-offset="748">
+        <state line="25" column="13" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
           <folding>
             <element signature="e#121#140#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chdis/list.cpp">
+    <entry file="file://$PROJECT_DIR$/chdis/list.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="9" selection-start="513" selection-end="513" vertical-scroll-proportion="0.24756335" vertical-offset="665" max-vertical-offset="3916">
-          <folding>
-            <element signature="e#94#113#0" expanded="true" />
-          </folding>
+        <state line="12" column="6" selection-start="159" selection-end="159" vertical-scroll-proportion="0.18055555" vertical-offset="160" max-vertical-offset="1628">
+          <folding />
         </state>
       </provider>
     </entry>
