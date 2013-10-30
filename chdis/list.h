@@ -50,6 +50,9 @@ void* lpop(list * l);
 //pop data from tail
 void* rpop(list * l);
 
+//delete a node in list
+void* removelnode(list *l, literator *i);
+
 //create a iterator for list
 literator createliterator(list * l);
 

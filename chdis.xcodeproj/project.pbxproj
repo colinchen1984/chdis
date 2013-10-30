@@ -11,6 +11,7 @@
 		2C43D883D9660DD7DB008747 /* skiplist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C43D50AB2865D48588811A3 /* skiplist.cpp */; };
 		2C43DB0720C47DF8DB54DCE8 /* dystring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C43D42440CBEB35AD61B184 /* dystring.cpp */; };
 		2C43DCC76553F41174ED3679 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C43DC981D441BDAAB2B48E7 /* main.cpp */; };
+		2C43DE8E5488432E6822DE66 /* forwardlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C43D3A9D3FA81862DA6C89F /* forwardlist.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +27,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2C43D0BE675D2E0E1D387821 /* forwardlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = forwardlist.h; sourceTree = "<group>"; };
 		2C43D2D175013448C1FB06C9 /* chdis.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = chdis.1; sourceTree = "<group>"; };
+		2C43D3A9D3FA81862DA6C89F /* forwardlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = forwardlist.cpp; sourceTree = "<group>"; };
 		2C43D42440CBEB35AD61B184 /* dystring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dystring.cpp; sourceTree = "<group>"; };
 		2C43D50AB2865D48588811A3 /* skiplist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = skiplist.cpp; sourceTree = "<group>"; };
 		2C43D5BCBA8D646CB8A2F71D /* define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
@@ -34,7 +37,7 @@
 		2C43DA235CDAC05EB92E5FD5 /* skiplist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skiplist.h; sourceTree = "<group>"; };
 		2C43DBE2FE715D638E332B50 /* dystring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dystring.h; sourceTree = "<group>"; };
 		2C43DC3A79989FFE8E2423E8 /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
-		2C43DC981D441BDAAB2B48E7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2C43DC981D441BDAAB2B48E7 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2C43DEC933B71CF928AE3EC1 /* list.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = list.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +72,8 @@
 				2C43DBE2FE715D638E332B50 /* dystring.h */,
 				2C43D50AB2865D48588811A3 /* skiplist.cpp */,
 				2C43DA235CDAC05EB92E5FD5 /* skiplist.h */,
+				2C43D3A9D3FA81862DA6C89F /* forwardlist.cpp */,
+				2C43D0BE675D2E0E1D387821 /* forwardlist.h */,
 			);
 			path = chdis;
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 				2C43D77A3920B615076C491C /* list.cpp in Sources */,
 				2C43DB0720C47DF8DB54DCE8 /* dystring.cpp in Sources */,
 				2C43D883D9660DD7DB008747 /* skiplist.cpp in Sources */,
+				2C43DE8E5488432E6822DE66 /* forwardlist.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

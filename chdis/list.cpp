@@ -131,6 +131,39 @@ void* rpop(list * l)
 	return r;
 }
 
+//delete a node in list
+void* removelnode(list *l, literator *i)
+{
+	void* ret = nullptr;
+	do
+	{
+		if(i->l != l || 0 == l->count)
+		{
+			break;
+		}
+
+		if(i->currentnode == l->tail)
+		{
+			ret = rpop(l);
+			break;
+		}
+
+		if(i->currentnode == l->head)
+		{
+			ret = lpop(l);
+			break;
+		}
+
+		auto n = i->currentnode;
+		n->prev->next = n->next;
+		n->next->prev = n->prev;
+		ret = n->data;
+		destorynode(n);
+
+	}while(false);
+	return ret;
+}
+
 literator createliterator(list * l)
 {
 	literator i;
