@@ -21,16 +21,16 @@ void destorynode(list::node* n)
 	free(n);
 }
 
-list* createlist()
+list * createlist()
 {
-	auto l = (list*)malloc(sizeof(list));
+	auto l = (list *)malloc(sizeof(list));
 	l->count = 0;
 	l->head = nullptr;
 	l->tail = nullptr;
 	return l;
 }
 
-void destorylist(list* l)
+void destorylist(list * l)
 {
 	while(nullptr != lpop(l))
 	{
@@ -39,7 +39,7 @@ void destorylist(list* l)
 	free(l);
 }
 
-void rpushdystring(list* l, void* s)
+void rlistpush(list *l, void *s)
 {
 	auto n = createnode();
 	n->data = s;
@@ -61,7 +61,7 @@ void rpushdystring(list* l, void* s)
 	}while(false);
 }
 
-void lpushdystring(list* l, void* s)
+void llistpush(list *l, void *s)
 {
 	auto n = createnode();
 	n->data = s;
@@ -84,7 +84,7 @@ void lpushdystring(list* l, void* s)
 }
 
 //pop data from head
-void* lpop(list* l)
+void* lpop(list * l)
 {
 	void* r = nullptr;
 	do
@@ -108,7 +108,7 @@ void* lpop(list* l)
 }
 
 //pop data from tail
-void* rpop(list* l)
+void* rpop(list * l)
 {
 	void* r = nullptr;
 	do
@@ -131,7 +131,7 @@ void* rpop(list* l)
 	return r;
 }
 
-literator createliterator(list* l)
+literator createliterator(list * l)
 {
 	literator i;
 	i.currentnode = l->head;
@@ -139,7 +139,7 @@ literator createliterator(list* l)
 }
 
 //create a revert iterator for list
-literator rcreateliterator(list* l)
+literator rcreateliterator(list * l)
 {
 	auto i = createliterator(l);
 	i.currentnode = l->tail;

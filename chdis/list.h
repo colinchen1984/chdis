@@ -10,7 +10,8 @@
 
 #include "define.h"
 
-struct list {
+class list {
+public:
 	struct node
 	{
 		node* prev;
@@ -26,34 +27,34 @@ struct list {
 
 struct literator
 {
-	list* l;
+	list * l;
 	list::node* currentnode;
 
 };
 
 //craete a list
-list* createlist();
+list * createlist();
 
 //destory a list
-void destorylist(list* l);
+void destorylist(list * l);
 
 //push a dystring to list at tail
-void rpushdystring(list* l, void* d);
+void rlistpush(list *l, void *d);
 
 //push a dystring to list at head
-void lpushdystring(list* l, void* d);
+void llistpush(list *l, void *d);
 
 //pop data from head
-void* lpop(list* l);
+void* lpop(list * l);
 
 //pop data from tail
-void* rpop(list* l);
+void* rpop(list * l);
 
 //create a iterator for list
-literator createliterator(list* l);
+literator createliterator(list * l);
 
 //create a revert iterator for list
-literator rcreateliterator(list* l);
+literator rcreateliterator(list * l);
 
 //get data from iterator
 void* getlistdata(literator* i);
