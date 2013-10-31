@@ -53,3 +53,5 @@ char* getdystringdata(dystring* s)
 {
 	return s->buffer;
 }
+
+

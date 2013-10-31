@@ -204,3 +204,5 @@ void ireatorprev(literator* i)
 		i->currentnode = i->currentnode->prev;
 	}
 }
+
+
